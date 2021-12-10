@@ -1,0 +1,80 @@
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    text-align: center;
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px; 
+    width: 100px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    position:fixed;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    text-align: right;
+   
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px; 
+    z-index: 1;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(203, 201, 228);
+}
+
+.common {
+    border: solid 2px white;
+    position: absolute;
+}
+
+.global{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+.big{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: semi-expanded;
+}
+
+.box1 {
+    border-width: 3px;
+    border-style:double;
+    border-color:rgb(0, 0, 0)
+}
+
+.labels{
+    font-size: 20px;
+    font-family: initial;
+    font-kerning: initial;
+    font-style: italic;
+}
+
+.tab{
+    height: 100px;
+    width: 500px;
+}
